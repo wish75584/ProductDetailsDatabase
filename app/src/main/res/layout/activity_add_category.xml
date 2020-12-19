@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCategoryActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Categories"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/cat1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Category One"
+        android:padding="20dp"/>
+    <EditText
+        android:id="@+id/cat2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Category two"
+        android:padding="20dp"/>
+
+    <EditText
+        android:id="@+id/cat3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Category three"
+        android:padding="20dp"/>
+
+    <EditText
+        android:id="@+id/cat4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Category four"
+        android:padding="20dp"/>
+
+    <EditText
+        android:id="@+id/cat5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Category five"
+        android:padding="20dp"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:padding="10dp"/>
+
+
+</LinearLayout>
