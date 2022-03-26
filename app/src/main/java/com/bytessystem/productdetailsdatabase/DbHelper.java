@@ -1,10 +1,8 @@
 package com.bytessystem.productdetailsdatabase;
 
 import android.content.Context;
-import android.database.DatabaseErrorHandler;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.view.View;
 
 public class DbHelper extends SQLiteOpenHelper {
 
@@ -17,12 +15,9 @@ public class DbHelper extends SQLiteOpenHelper {
             "CREATE TABLE CATEGORY (cat1 TEXT,cat2 TEXT,cat3 TEXT,cat4 TEXT,cat5 TEXT)";
 
 
-
-
     public DbHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
-
 
 
     @Override
